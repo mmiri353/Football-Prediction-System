@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Flask API</title>
+</head>
+<body>
+  <button onclick="makeRequest()">Test Prediction</button>
+  <p id="result"></p>
+
+  <script>
+    async function makeRequest() {
+      const response = await fetch('http://127.0.0.1:5000/predict', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ home_team: 'REAL MADRID', away_team: 'BARCELONA', match_excitement: 9, home_rating: 90, away_rating: 88 }),
+      });
+      const data = await response.json();
+      document.getElementById('result').innerText = JSON.stringify(data);
+    }
+  </script>
+</body>
+</html>

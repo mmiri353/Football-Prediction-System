@@ -1,0 +1,213 @@
+
+.admin-prediction-page {
+    display: flex;
+    min-height: 100vh;
+    padding: 40px;
+    background: linear-gradient(135deg, #0A0C2A, #161C34);
+    font-family: 'Poppins', sans-serif;
+    color: #D3D3D3;
+}
+
+
+.admin-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FF3B3B;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 10px rgba(255, 59, 59, 0.6);
+}
+
+
+.admin-form-container {
+    background: rgba(30, 30, 50, 0.98);
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.15s ease-in-out;
+}
+
+.admin-form-container:hover {
+    transform: scale(1.01);
+}
+
+.admin-section-title {
+    font-size: 1.8rem;
+    color: #FF3B3B;
+    font-weight: bold;
+    margin-bottom: 18px;
+    position: relative;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 3px 8px rgba(255, 59, 59, 0.6);
+    
+}
+
+.admin-section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #FF3B3B;
+    margin-top: 8px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+}
+.admin-input {
+    background-color: rgba(255, 255, 255, 0.08); 
+    border: 2px solid transparent;
+    outline: none; 
+    color: #ffffff;
+    padding: 15px 20px; 
+    border-radius: 8px; 
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    width: 100%;
+    box-shadow: none; 
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+.admin-input:focus {
+    background: rgba(255, 255, 255, 0.12); 
+    box-shadow: 0 0 0 2px rgba(255, 59, 59, 0.8), 0 0 8px rgba(255, 59, 59, 0.4); 
+}
+
+.admin-input input, .admin-input .MuiInputBase-root {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border: none !important;
+    outline: none !important;
+    color: #ffffff !important;
+    padding: 10px 14px !important;
+    box-shadow: none !important; 
+}
+
+
+.admin-input .MuiOutlinedInput-root {
+    border: 2px solid rgba(183, 28, 28, 0.6) !important; 
+    border-radius: 8px !important;
+    padding: 0 !important; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+
+.admin-input .MuiOutlinedInput-root.Mui-focused {
+    border-color: rgba(255, 59, 59, 0.8) !important;
+}
+
+.admin-input input::placeholder,
+.admin-input .MuiInputBase-input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+    opacity: 1; 
+}
+
+
+.admin-input .MuiFormLabel-root {
+    color: rgba(255, 255, 255, 0.6); 
+    font-size: 1rem; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.admin-input .MuiFormLabel-root.Mui-focused {
+    color: rgba(255, 255, 255, 0.9); 
+    font-size: 0.9rem;
+    transform: translateY(-6px); 
+}
+
+
+
+.admin-match-box {
+    background: rgba(30, 30, 50, 0.98);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 59, 59, 0.3);
+    color: #E0E0E0;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.admin-match-box:hover {
+    box-shadow: 0 12px 35px rgba(255, 59, 59, 0.6);
+}
+
+
+.admin-prediction-page .styled-button {
+    background-color: #FF3B3B !important;
+    color: #ffffff !important;
+    font-size: 0.9rem !important;
+    padding: 10px 18px !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+    margin: 10px 5px !important;
+    cursor: pointer !important;
+    border: none !important;
+    box-shadow: 0 4px 10px rgba(255, 59, 59, 0.4) !important;
+    transition: background-color 0.3s, transform 0.2s ease, box-shadow 0.3s !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+}
+
+.admin-prediction-page .styled-button:hover {
+    background-color: #CC3232 !important;
+    transform: scale(1.05) !important;
+    box-shadow: 0 6px 15px rgba(255, 59, 59, 0.5) !important;
+}
+
+.admin-prediction-page .styled-button:active {
+    background-color: #FF3B3B !important;
+    box-shadow: 0 3px 8px rgba(255, 59, 59, 0.3) !important;
+    transform: scale(0.97) !important;
+}
+
+
+.admin-prediction-page .admin-save-button {
+    background: linear-gradient(145deg, #FF3B3B, #CC3232) !important;
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    padding: 10px 24px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 25px rgba(255, 59, 59, 0.6), inset 0 -4px 6px rgba(255, 59, 59, 0.3) !important;
+    display: inline-block !important;
+    margin: 20px 0 0 0 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.9px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: transform 0.15s ease-in-out, box-shadow 0.3s ease, background 0.3s ease !important;
+}
+
+.admin-prediction-page .admin-save-button:hover {
+    background: linear-gradient(145deg, #CC3232, #A62D2D) !important;
+    box-shadow: 0 12px 35px rgba(255, 59, 59, 0.8), inset 0 -4px 6px rgba(255, 59, 59, 0.5) !important;
+    transform: scale(1.05) !important;
+}
+
+.admin-prediction-page .admin-save-button:active {
+    background: linear-gradient(145deg, #A62D2D, #A62D2D) !important;
+    box-shadow: 0 6px 20px rgba(255, 59, 59, 0.6), inset 0 -3px 5px rgba(255, 59, 59, 0.5) !important;
+    transform: scale(0.98) !important;
+}
+.admin-input:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .admin-match-box {
+        flex: 1 1 calc(50% - 20px);
+        min-width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .admin-match-box {
+        flex: 1 1 calc(33.33% - 20px);
+    }
+}

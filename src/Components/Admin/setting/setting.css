@@ -1,0 +1,45 @@
+.settings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.settings-table td{
+    color: black;
+    font-weight: bolder;
+}
+
+.settings-table th, .settings-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.settings-table th {
+    background-color: rgb(255, 75, 68);
+    color: white;
+    font-size: 18px;
+}
+
+.settings-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.settings-table tr:hover {
+    background-color: rgb(200, 70, 68)
+}
+
+.settings-table button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(255, 75, 68);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.settings-table button:hover {
+    background-color: red;
+}

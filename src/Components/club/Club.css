@@ -1,0 +1,333 @@
+.club-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+  
+  .teams-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    width: 100%;
+    max-width: 1200px;
+    
+  }
+  
+  .team-card {
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 400px; 
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .team-card:hover,
+  .team-card:focus {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 75, 68);
+  }
+  .team-card h2{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .imgclub {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s;
+    margin-top: 0px;
+  }
+  
+  .team-card:hover .imgclub,
+  .team-card:focus .imgclub {
+    transform: scale(1.1);
+   
+  }
+  
+  .team-name, 
+  .team-foundation {
+    margin: 8px 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .clubp{
+    font-size: 20px;
+  }
+  h2{
+   font-size: 20px;
+  }
+  .club-details-link {
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .club-details-link:hover {
+    text-decoration: underline;
+  }
+  .club-details-container {
+    background-color: rgb(255, 75, 68); 
+    color: white;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 90px;
+  }
+  
+  .team-image {
+    width: 100px; 
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .team-name {
+    font-size: 2em;
+  }
+  
+  .details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .details-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .details-column p {
+    margin: 10px 0;
+  }
+  
+  .details-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details-column li {
+    margin: 5px 0;
+  }
+  
+  select {
+    padding: 5px;
+   
+  }
+  .table-header ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    margin: 0px 0 0 0;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  .table-header li {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    border-right: 1px solid black;
+    
+  }
+  
+  .table-header li:last-child {
+    border-right: none;
+  }
+  .table-header li:hover{
+    color: rgb(255, 75, 68);
+    text-decoration: underline;
+    
+  }
+  .divider-line {
+    background-color: white;
+    border-top: 5px solid rgb(255, 75, 68);
+    font-weight: bold;
+    margin-top: 0;
+  }
+  .stadium{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .stadium-description {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .info{
+    background-color: white;
+    font-weight: bold;
+    color: black;
+  }
+  .info1{
+ background-color: white;
+ color: black;
+  }
+  .page{
+    background-color: white;
+  }
+  .divider-line2 {
+    background-color: white;
+    border-top: 5px solid rgb(255, 75, 68);
+    font-weight: bold;
+    margin-top: 0;
+  }
+.back{
+  background-color: white;
+  color: rgb(255, 75, 68);
+  font-weight: bold;
+}
+.back:hover{
+  background-color: white;
+  font-weight: bold;
+}
+/* Styling for the comment section */
+.comments-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Left Column: Comment Form */
+.comment-form-container {
+  width: 48%;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+  background: linear-gradient(145deg, #0e1147, #1f1e5fbe);
+}
+
+.comment-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comment-form-container button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form-container button:hover {
+  background-color: #45a049;
+}
+
+.comment-form-container p {
+  color: red;
+}
+
+/* Right Column: Latest Comment */
+.comment-list-container {
+  width: 48%;
+  padding: 15px;
+  background: linear-gradient(145deg, #0e1147, #1f1e5fbe);
+}
+
+.comment-list-container h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.comment {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+
+.like-icon {
+  cursor: pointer;
+  margin-right: 5px;
+  color: white; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.like-icon.liked {
+  color: blue; /* Blue color when liked */
+}
+
+
+
+
+.comment-replies {
+  margin-top: 10px;
+}
+
+.comment-reply {
+  padding-left: 10px;
+  margin-top: 5px;
+  border-left: 2px solid #ccc;
+}
+
+.reply-form {
+  margin-top: 5px;
+}
+
+.reply-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.reply-form button {
+  padding: 5px;
+  background-color:blue ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reply-form button:hover {
+  background-color: #0e1147;
+}
+.login-warning {
+  color: red;
+  font-style: italic;
+  margin-top: 10px;
+}

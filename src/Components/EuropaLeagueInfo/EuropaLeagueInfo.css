@@ -1,0 +1,42 @@
+/* Container */
+.simple-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .simple-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(7, 87, 7);
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraphs */
+  .simple-container p {
+    margin: 10px 0;
+    font-size: 15px;
+   
+  }
+  
+  /* Strong Elements */
+  .simple-container strong {
+    color: green;
+    font-size: 18px;
+  }
+  .img{
+ 
+        display: block;
+        width: 100%;
+    
+  }
+  /* Box shadow for paragraph */
+.p {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px green;
+    margin-bottom: 20px;
+  }

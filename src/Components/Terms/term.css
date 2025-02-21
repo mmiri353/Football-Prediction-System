@@ -1,0 +1,37 @@
+.terms-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #141b2d;
+   color: white;
+   background-size: cover;
+  }
+  
+  .terms-container h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(14, 173, 14) ;
+    font-weight: bold;
+  }
+  
+  .terms-container p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .terms-container ol {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  .terms-container li {
+    margin-bottom: 10px;
+  }
+  
+  .terms-container strong {
+    font-weight: bold;
+    color: rgb(11, 189, 11);
+  }
+  .terms-container li a{
+    color: rgb(111, 111, 255);
+  }

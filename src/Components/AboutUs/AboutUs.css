@@ -1,0 +1,71 @@
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about .about-1 h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.about-1 p {
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+.about-items-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-item{
+    flex: 1 0 45%;
+    margin: 0 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: gray;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0  .6);
+}
+.about-item .icon{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+font-size: 25px;
+margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    color: rgb(80, 207, 80);
+    margin: 0 auto;
+    border: nome;
+}
+.about-item p{
+    margin-top: 20px;
+}
+.about-item:hover{
+    background-color:rgb(172, 10, 10);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}

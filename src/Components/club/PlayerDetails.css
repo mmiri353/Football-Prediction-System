@@ -1,0 +1,364 @@
+.club-details-container {
+    background-color: rgb(255, 75, 68); 
+    color: white;
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 90px;
+  }
+  
+  .team-image {
+    width: 100px; 
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .team-name {
+    font-size: 2em;
+  }
+  
+  .details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .details-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .details-column p {
+    margin: 10px 0;
+  }
+  
+  .details-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  
+
+  
+  .club-details-container-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .header-custom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-image-custom {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .team-name-custom {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .details-container-custom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .details-column-custom {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .player-info-container-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .player-header-custom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .player-image-custom {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .player-info-main-custom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  
+  .player-number-custom {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .player-name-country-custom {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    
+  }
+  
+  .player-name-custom {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .player-country-custom {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .player-info-custom {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .player-info-table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .player-info-table-custom td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .player-info-table-custom th{
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .statistics-container-custom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .player-stats-custom {
+    width: 48%;
+    border-collapse: collapse;
+  }
+  
+  .player-stats-custom td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .error {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .no-data {
+    font-size: 18px;
+    color: #333;
+  }
+  h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  .image{
+    width: 35px;
+    margin-right: 5px;
+  }
+  .icons{
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .role{
+    color: white;
+    background-color: #141b2d;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .comments-section {
+    display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  background-color: white;
+  }
+  
+  /* Container for the comment form */
+  .comment-form {
+    width: 100%;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    background: linear-gradient(145deg, #0e1147, #1f1e5fbe);
+
+  }
+  .comment-form form{
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .comment-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #303f9f;
+  }
+  
+  /* Comments Container */
+  .comments-container {
+    width: 48%;
+  padding: 15px;
+  background: linear-gradient(145deg, #0e1147, #1f1e5fbe);
+  }
+  
+  /* Latest Comments Heading */
+  .latest-comments  {
+    width: 48%;
+  padding: 15px;
+  background: linear-gradient(145deg, #0e1147, #1f1e5fbe);
+  }
+  
+  /* Comment Item Style */
+  .comment-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .comment-item strong {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .comment-item em {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .comment-item button {
+    background-color: #fff;
+    border: 1px solid #3f51b5;
+    color: #3f51b5;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .comment-item button:hover {
+    background-color: #3f51b5;
+    color: #fff;
+  }
+  
+  /* Replies Section */
+  .replies-section {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+  }
+  
+  .replies-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .replies-section li {
+    margin-bottom: 10px;
+  }
+  
+  .replies-section strong {
+    font-size: 15px;
+    color: #444;
+  }
+  
+  .replies-section em {
+    font-size: 13px;
+    color: #777;
+  }
+  
+  /* Reply Form */
+  .comment-item form {
+    margin-top: 10px;
+  }
+  
+  .comment-item form textarea {
+    padding: 8px;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 14px;
+  }
+  
+  .comment-item form button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-item form button:hover {
+    background-color: #388e3c;
+  }
+  
+  
+  
